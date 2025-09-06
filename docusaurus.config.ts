@@ -18,8 +18,8 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   projectName: "go-website", // Usually your repo name.
-  url: "https://go-website.github.io",
-  baseUrl: "/go-website",
+  url: "https://koras02.github.io",
+  baseUrl: "/go-website/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

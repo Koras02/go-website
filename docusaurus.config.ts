@@ -19,7 +19,7 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   projectName: "go-website", // Usually your repo name.
   url: "https://go-website.github.io",
-  baseUrl: "/",
+  baseUrl: "/go-website",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

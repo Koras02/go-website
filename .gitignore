@@ -6,7 +6,6 @@
 .docusaurus
 
 # Docusaurus Build Directory
-/build/
 
 ### Docusaurus.Node Stack ###
 # Logs

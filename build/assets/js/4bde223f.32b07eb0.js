@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgo_website=self.webpackChunkgo_website||[]).push([[2419],{4874:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/go-website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

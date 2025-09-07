@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgo_website=self.webpackChunkgo_website||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/go-website/blog","blogTitle":"Blog","authorsListPath":"/go-website/blog/authors"}')}}]);

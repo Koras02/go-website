@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Go Handbook",
-  tagline: "Dinosaurs are cool",
+  tagline: "Go Tutorial Site",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -18,11 +18,11 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   projectName: "go-website", // Usually your repo name.
-  organizationName: "koras02", // Usually your GitHub org/user name.
+  organizationName: "Koras02", // Usually your GitHub org/user name.
   deploymentBranch: "gh-pages",
-  trailingSlash: true,
   baseUrl: "/go-website/",
   url: "https://koras02.github.io",
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -34,8 +34,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ko",
+    locales: ["ko"],
   },
 
   presets: [
@@ -75,10 +75,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Go Handbook",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/biplane.svg",
       },
       items: [
         {
@@ -89,7 +89,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/Koras02",
           label: "GitHub",
           position: "right",
         },
@@ -133,7 +133,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/Koras02",
             },
           ],
         },

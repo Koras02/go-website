@@ -2,46 +2,43 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Go란 무엇인가
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Go는 **가비지 컬렉션** 기능과 **병행성(concurrent)를** 지원하는 프로그래밍 언어 **병행 처리(concurrency)** 성능이 뛰어나면서 주로 서버 사이드 개발, 클라우드 서비스, 데이터 처리에 매우 유용하고 많이 사용되는 언어로, 정적타입의 언어이며, 컴파일 언어로써 빠른 실행 속도를 자랑합니다.
 
-## Getting Started
+# 1. Go의 주요 특징
 
-Get started by **creating a new site**.
+- **간결한 문법**: 개발자가 배우기 쉬운 언어로, 간결한 코드방식을 가지고 있음
+- **병행 처리**: **고루틴(goroutine)**을 통한 쉬운 병렬 처리 프로그래밍
+- **정적 타입**: 컴파일 시 타입 체크가 이루어져 안정성이 높음
+- **강략한 표준 라이브러리**: 네트워킹, 파일 처리 등 다양한 기능을 제공하는 풍부한 라이브러리
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+# 2. Go 설치법
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **Windows 버전**
 
-## Generate a new site
+  - [Go 다운로드 페이지](https://go.dev/dl/)에 접속해 Windows 버전 설치
+  - 다운로드한 설치파일을 실행해 Go 설치
+  - 설치가 완료되면, 명령 프롬프트를 열고 `go version` 입력(안될 시 환경 변수 문제 시스템 -> 환경변수 편집->path 부분 클릭해서 go 설치 디렉토리 추가)
 
-Generate a new Docusaurus site using the **classic template**.
+- **macOS**
 
-The classic template will automatically be added to your project after you run the command:
+  - [Go 다운로드 페이지](https://go.dev/dl/)에 접속해 mac 버전 설치
+  - 다운로드한 .pkg파일 실행해 설치
+  - 설치 완료시 `go version`을 처서 확인
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **Linux**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+  - [Go 다운로드 페이지](https://go.dev/dl/)에 접속해 Linux 버전 설치
+  - 터밀널을 열고 다음 명령어로 압축 풀기
+    `tar -C /usr/local -xzf go1.XX.linux-amd64.tar.gz`
+  - **다음 PATH 실행**
+    ```echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bash_profile
+    source ~/.bash_profile
+    ```
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- **공통** 설치 완료시 go version으로 설치 확인
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+---

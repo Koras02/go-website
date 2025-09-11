@@ -31,7 +31,7 @@ Go 에서는 여러 기본 데이터 타입을 제공합니다.
 * **복소수형(Complex)**
   - complex64, complex128
 * **문자열(String)**
-  - 문자열은 **불변(immutable)**이며, UTF-8 인코딩 지원 
+  - 문자열은 **불변(immutable)** 이며, UTF-8 인코딩 지원 
   ```go
   var greeting string = "Hello World"
   ```
